@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+ 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins'
+}
+
+body{
+    background-color: #F7E7CE;
+  background-image: url(assert/shutterstock_1749739439.png);
+  background-repeat: no-repeat;
+  background-size: 700px 538px;
+  background-position: 90% 120%;
+  height: 100vh;
+ 
+
+}
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5%;
+    width: 100%;
+    
+}
+.logo{
+    color: #F7E7CE;
+    background: #BE6C42 0% 0% no-repeat padding-box;
+    border-radius: 0px 0px 30px 0px;
+    opacity: 1;
+    padding: 20px 10px 10px;
+    cursor: pointer;
+}
+
+ul.nav-links  {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 20vw;
+    cursor: pointer;
+}
+
+nav li{
+    color: #713C25;
+    font-size: smaller;
+}
+
+.hero{
+    display: flex;
+    margin-top: 40px;
+    flex-direction: column;
+    height: 90vh;
+}
+
+
+.hero h2{
+   color: #713C25;
+   font-weight: 700;
+   font-size: 60px;
+   margin: 0 110px ;
+  
+}
+
+.hero h1{
+    color: #BE6C42;
+    font-size: 180px;
+    font-weight: 100;
+    letter-spacing: 5px;
+    
+    
+   
+}
+
+.hero img{
+    height: 100px;
+    position: absolute;
+    right: 2%;
+}
+
+.hero p{
+    color: #713C25;
+    font-size: 16px;
+    position: absolute;
+    left: 20%;
+    
+}
+
+.hero h3{
+    position: absolute;
+    top: 40%;
+    left: -9%;
+   transform: rotate(270deg);
+   font-size: 170px;
+   font-weight: 100;
+   color: #BE6C42;
+   opacity: 15%;
+}
+
+.section-head h2{
+    background-color: #BE6C42;
+    color: white;
+    font-size: 16px;
+    font-weight: 200;
+    text-transform: uppercase;
+    padding: 10px 0 10px 0;
+    margin: 0;
+    text-align: center;
+
+}
+
+.more-info{
+    display: grid;
+    position: relative;
+    background-image: url(assert/img.png);
+    background-repeat: no-repeat;  
+    background-position: center ;
+    z-index: -2;
+    height: 95vh;
+    
+}
+
+.more-info::before{
+     content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: -1;
+}
+
+.more-info h1{
+   
+    font-size: 50px;
+    text-align: left;
+    color: #713C25;
+    margin-top: 10px;
+    font-weight: 100;
+    z-index: -2;
+
+
+
+}
+
+.info1{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-gap: 20px;
+   
+
+
+}
+
+.iv{
+    border-right: 1px solid #BE6C42;
+}
+
+.info1 p {
+    color:#BE6C42;
+    width: 400px;
+    font-size: 14px;
+    
+   
+}
+.info1 button{
+    color: #BE6C42;
+    padding: 15px;
+    background-color: #F7E7CE;
+    
+}
+
+.info1 h3{
+    color:#713C25;
+    width: 420px;
+    font-size: 20px;
+}
+
+.more-info2 {
+    margin-top: 60px;
+    background-image: url(assert/shutterstock_1749300266.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: 500px 500px;
+    margin-bottom: 100px;
+}
+
+.more-info2 h1{
+    
+    font-size: 200px;
+    line-height: 170px;
+}
+
+.more-info2 h1 span{
+    color: #BE6C42;
+    margin-left: 50px;
+}
+
+.info2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    
+ 
+ 
+ }
+
+ .info2 button{
+    color: #BE6C42;
+    padding: 15px;
+    background-color: #F7E7CE;
+    
+}
+.info2 h3{
+    color:#713C25;
+    width: 420px;
+    font-size: 20px;
+}
+
+.info2 p {
+    color:#BE6C42;
+    width: 400px;
+    font-size: 14px;  
+}
+
+.more-info2 h6 {
+    color:#BE6C42;
+     
+}
+
+.more-info3{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    background-color:#BE6C42;
+    height: 60vh;
+    text-align: center;
+    background-size: 100vw;
+    margin-bottom: 60px;
+    
+}
+
+.more-info3 img{
+    height: 100px;
+    color: #F7E7CE;
+}
+
+.more-info3 button{
+    color:  #F7E7CE;
+    background-color: #BE6C42;
+    border: none;
+    border-bottom: 1px solid #F7E7CE;
+}
+
+.more-info3 h3{
+    padding: 15px;
+    color: #F7E7CE;
+}
+
+footer{
+    border: 2px solid #713C25;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+footer a{
+    text-decoration: none;
+    color: #713C25;
+  
+}
+footer .ft{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ft{
+    color: #713C25;
+}
+
+.ft ul{
+    list-style: none;
+    color:#713C25;
+}
